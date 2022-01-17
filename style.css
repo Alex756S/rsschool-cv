@@ -54,7 +54,7 @@ svg:not(:root) {
     color:white;
 }
 /*hero styles*/
-.hero{
+.Hero{
     min-height:100vh;
     background: url(/img/hero_bg.svg) no-repeat center;
     background-size: cover;
