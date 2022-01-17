@@ -1,1 +1,220 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 10px;
+    line-height: 1.2;
+    font-weight:normal;
+    background-color: black;
+}
+svg:not(:root) {
+    overflow: hidden;
+  }
+.wrapper{
+    max-width: 1400px;
+    margin:0 auto;
+}
+/*header style*/
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top:0px;
+}
+.header_logo{
+    margin-left: 20px;
+}
+.header_list{
+    display: flex;
+    flex-wrap: wrap;
+}
+/*відсутпи між елементами 30 пікселів*/
+.header_item{
+    padding-right: 30px;
+    list-style-type: none;
+}
+/*останній елемент забрати відступ*/
+.header_item:last-child{
+    padding-right: 20px;
+}
+.header_link{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    text-decoration: none;
+    color:white;
+}
+/*hero styles*/
+.hero{
+    min-height:100vh;
+    background: url(/img/hero_bg.svg) no-repeat center;
+    background-size: cover;
+    padding-top: 250px;
+    background-size: 1440 910;
+    color: #FFFFFF;
+    padding-left: 80px;
+}
+.hero_title{
+    max-width: 500px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 120px;
+    margin-bottom: 10px;
+}
+.hero_undertitle{
+    max-width: 470px;
+    max-height: 120px;
+    font-size: 20px;
+    line-height: 40px
+}
+.btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 220px;
+    height: 55px;
+    background-color:#BDAE82;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 7px 72px;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit
+}
+.btn:hover,.btn_hero:focus,.btn_hero:active{
+    background: #C4AE70;
+}
+/*skills style*/
+.skills{
+    background-color: black;
+    margin-top: -35px;
+    color: #FFFFFF
+}
+h2{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    color: #BDAE82;
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url(/img/section-title-line.svg) no-repeat center;
+}
+.layout_4_colomn{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    }
+.tool{
+    text-align: center;
+    max-width: 320px;
+    max-height: 240px;
+}
+.tool_title{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.tool_text{
+    font-size: 18px;
+    line-height: 36px;
+}
+.icon{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        height: 50px;
+}
+.icon_camera{
+    background-image: url(/img/skills/camera_logo.svg);
+    width: 62px;
+}
+.icon_video{
+    width: 60px;
+    background-image: url(/img/skills/video_logo.svg);
+}
+.icon_picture{
+    width: 66px;
+    background-image: url(/img/skills/picture_logo.svg);
+}
+.icon_audio{
+    width:  32px;
+    background-image: url(/img/skills/audio_logo.svg);
+}
+/*Portfolio style*/
+.btn_winter{
+margin-left:272px;
+}
+.layout_3_colomn{
+    display: flex;
+    flex-wrap: wrap; 
+    padding-top: 60px;
+    align-items: center;
+    justify-content: space-between;;
+}
+footer{
+    color:#FFFFFF;
+    font-size: 20px;
+    line-height: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
 
+.github{
+    text-decoration: none;
+}
+.rs{
+    margin-right: 615px;
+    text-decoration: none;
+}
+.video{
+background-image: url(/img/portfolio/Play_hover.svg) no-repeat center;
+}
+.price_title{
+    font-family: Merriweather;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 56px;
+}
+.layout_3{
+    color: #FFFFFF;
+}
+.price{
+    font-family: Merryweather;
+    font-size: 24px;
+    line-height: 48px;
+    color: #BDAE82;
+}
+.text{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 36px;
+    font-family: Inter;
+}
+.btn_550{
+text-align: center;
+}
+.Contact_me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-image: url(/img/portfolio/contacts.svg);
+    width: 1440;
+    height:700;  
+}
